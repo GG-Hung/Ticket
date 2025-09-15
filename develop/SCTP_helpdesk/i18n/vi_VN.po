@@ -1,0 +1,2040 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* SCTP_helpdesk
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-06 16:27+0000\n"
+"PO-Revision-Date: 2025-09-06 16:27+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_ticket_list
+msgid "<em class=\"text-muted\">Ticket trong giai đoạn:</em>"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_ticket_list
+msgid "<em class=\"text-muted\">Ticket trong nhóm:</em>"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.disable_header_text_element
+msgid ""
+"<i class=\"fa fa-1x fa-fw fa-phone me-1\"/>\n"
+"                      <span class=\"o_force_ltr\"><small>+1 555-555-5556</small></span>"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.disable_header_text_element
+msgid "<i class=\"fa fa-1x fa-fw fa-phone me-1\"/>͏"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_create_ticket
+msgid "<option value=\"\">— Chọn team —</option>"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_create_ticket
+msgid "<option value=\"\">— Chọn vấn đề cần hỗ trợ —</option>"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model:mail.template,body_html:SCTP_helpdesk.assignment_email_template
+msgid ""
+"<p>Hello <t t-out=\"object.user_id.name\"></t>,</p>\n"
+"                <p>The ticket <t t-out=\"object.number\"></t> has been assigned to you.</p>\n"
+"            "
+msgstr ""
+"<p>Xin chào <t t-out=\"object.user_id.name\"></t>,</p>\n"
+"<p>Ticket <t t-out=\"object.number\"></t> đã được phân công cho bạn.</p>\n"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.disable_header_text_element
+msgid ""
+"<small class=\"d-flex align-items-center\">\n"
+"                      <i class=\"fa fa-1x fa-fw fa-usd fa-stack me-1\"/>\n"
+"                      Low Price Guarantee\n"
+"                  </small>\n"
+"                  <small class=\"d-flex align-items-center\">\n"
+"                      <i class=\"fa fa-1x fa-fw fa-shopping-basket fa-stack me-1\"/>\n"
+"                      30 Days Online Returns\n"
+"                  </small>\n"
+"                  <small class=\"d-flex align-items-center\">\n"
+"                      <i class=\"fa fa-1x fa-fw fa-truck fa-stack me-1\"/>\n"
+"                      Standard Shipping\n"
+"                  </small>"
+msgstr ""
+"<small class=\"d-flex align-items-center\">\n"
+"  <i class=\"fa fa-1x fa-fw fa-usd fa-stack me-1\"/>\n"
+"  Đảm bảo giá tốt\n"
+"</small>\n"
+"<small class=\"d-flex align-items-center\">\n"
+"  <i class=\"fa fa-1x fa-fw fa-shopping-basket fa-stack me-1\"/>\n"
+"  Đổi trả trực tuyến trong 30 ngày\n"
+"</small>\n"
+"<small class=\"d-flex align-items-center\">\n"
+"  <i class=\"fa fa-1x fa-fw fa-truck fa-stack me-1\"/>\n"
+"  Giao hàng tiêu chuẩn\n"
+"</small>"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.disable_header_text_element
+msgid ""
+"<small>\n"
+"                          <i class=\"fa fa-1x fa-fw fa-envelope me-1\"/>\n"
+"                          info@yourcompany.example.com\n"
+"                      </small>"
+msgstr ""
+"<small>\n"
+"  <i class=\"fa fa-1x fa-fw fa-envelope me-1\"/>\n"
+"  info@yourcompany.example.com\n"
+"</small>"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.disable_header_text_element
+msgid ""
+"<small><i class=\"fa fa-1x fa-fw fa-envelope me-1\"/> "
+"info@yourcompany.example.com</small>"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.disable_header_text_element
+msgid "<small>Free Returns and Standard Shipping</small>"
+msgstr "<small>Đổi trả miễn phí và giao hàng tiêu chuẩn</small>"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.custom_footer
+msgid "<span class=\"badge\">Support</span>"
+msgstr "<span class=\"badge\">Hỗ trợ</span>"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.helpdesk_ticket_kanban_view
+msgid "<span class=\"fw-bolder\">View</span>"
+msgstr "<span class=\"fw-bolder\">Xem</span>"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_create_ticket
+msgid "<span class=\"hero-badge\">Ticket Hỗ trợ</span>"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_create_ticket
+msgid ""
+"<span class=\"meta-chip\">Tối đa 100 ký tự</span>\n"
+"                                    <span class=\"meta-chip\" id=\"subject_counter\">0/100</span>"
+msgstr ""
+"<span class=\"meta-chip\">Tối đa 100 ký tự</span>\n"
+"<span class=\"meta-chip\" id=\"subject_counter\">0/100</span>"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.disable_header_text_element
+msgid "<span class=\"o_force_ltr\">+1 555-555-5556</span>"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_helpdesk_ticket_page
+msgid "<strong class=\"d-block mb-2\">Tệp đính kèm</strong>"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_helpdesk_ticket_page
+msgid "<strong>Cập nhật giai đoạn gần nhất:</strong>"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_helpdesk_ticket_page
+msgid "<strong>Danh mục hỗ trợ:</strong>"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_helpdesk_ticket_page
+msgid "<strong>Khách hàng</strong>"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_helpdesk_ticket_page
+msgid "<strong>Ngày đóng:</strong>"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_helpdesk_ticket_page
+msgid "<strong>Ngày:</strong>"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_helpdesk_ticket_page
+msgid "<strong>Người phụ trách</strong>"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model:mail.template,body_html:SCTP_helpdesk.closed_ticket_template
+msgid ""
+"<table border=\"0\" width=\"100%\" cellpadding=\"0\" bgcolor=\"#ededed\" style=\"padding: 20px; background-color: #ededed; border-collapse:separate;\">\n"
+"                    <tbody>\n"
+"                      <!-- HEADER -->\n"
+"                      <tr>\n"
+"                        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"                          <table width=\"590\" border=\"0\" cellpadding=\"0\" bgcolor=\"#875A7B\" style=\"min-width: 590px; background-color: rgb(135,90,123); padding: 20px; border-collapse:separate;\">\n"
+"                            <tr>\n"
+"                              <td valign=\"middle\" align=\"right\">\n"
+"                                <img t-att-src=\"'/logo.png?company=%s' % object.company_id.id\" style=\"padding: 0px; margin: 0px; height: auto; width: 80px;\" t-att-alt=\"'%s' % object.company_id.name\">\n"
+"                              </td>\n"
+"                            </tr>\n"
+"                          </table>\n"
+"                        </td>\n"
+"                      </tr>\n"
+"                      <!-- CONTENT -->\n"
+"                      <tr>\n"
+"                        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"                          <table width=\"590\" border=\"0\" cellpadding=\"0\" bgcolor=\"#ffffff\" style=\"min-width: 590px; background-color: rgb(255, 255, 255); padding: 20px; border-collapse:separate;\">\n"
+"                            <tbody>\n"
+"                              <td valign=\"top\" style=\"font-family:Arial,Helvetica,sans-serif; color: #555; font-size: 14px;\">\n"
+"                                <p>Hello <t t-out=\"object.user_id.name\"></t>,</p>\n"
+"                                <p>The ticket \"<t t-out=\"object.display_name\"></t>\" has been closed.</p>\n"
+"                              </td>\n"
+"                            </tbody>\n"
+"                          </table>\n"
+"                        </td>\n"
+"                      </tr>\n"
+"                      <!-- FOOTER -->\n"
+"                      <tr>\n"
+"                        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"                          <table width=\"590\" border=\"0\" cellpadding=\"0\" bgcolor=\"#875A7B\" style=\"min-width: 590px; background-color: rgb(135,90,123); padding: 20px; border-collapse:separate;\">\n"
+"                            <tr>\n"
+"                              <td valign=\"middle\" align=\"left\" style=\"color: #fff; padding-top: 10px; padding-bottom: 10px; font-size: 12px;\">\n"
+"                                <t t-out=\"object.company_id.phone\"></t>\n"
+"                              </td>\n"
+"                              <td valign=\"middle\" align=\"left\" style=\"color: #fff; padding-top: 10px; padding-bottom: 10px; font-size: 12px;\">\n"
+"                                <t t-out=\"object.company_id.email\"></t>\n"
+"                              </td>\n"
+"                              <td valign=\"middle\" align=\"left\" style=\"color: #fff; padding-top: 10px; padding-bottom: 10px; font-size: 12px;\">\n"
+"                                <t t-out=\"object.company_id.website\"></t>\n"
+"                              </td>\n"
+"                            </tr>\n"
+"                          </table>\n"
+"                        </td>\n"
+"                      </tr>\n"
+"                    </tbody>\n"
+"                </table>\n"
+"            "
+msgstr ""
+"<table border=\"0\" width=\"100%\" cellpadding=\"0\" bgcolor=\"#ededed\" style=\"padding: 20px; background-color: #ededed; border-collapse:separate;\">\n"
+"  <tbody>\n"
+"    <!-- HEADER -->\n"
+"    <tr>\n"
+"      <td align=\"center\" style=\"min-width: 590px;\">\n"
+"        <table width=\"590\" border=\"0\" cellpadding=\"0\" bgcolor=\"#875A7B\" style=\"min-width: 590px; background-color: rgb(135,90,123); padding: 20px; border-collapse:separate;\">\n"
+"          <tr>\n"
+"            <td valign=\"middle\" align=\"right\">\n"
+"              <img t-att-src=\"'/logo.png?company=%s' % object.company_id.id\" style=\"padding: 0px; margin: 0px; height: auto; width: 80px;\" t-att-alt=\"'%s' % object.company_id.name\">\n"
+"            </td>\n"
+"          </tr>\n"
+"        </table>\n"
+"      </td>\n"
+"    </tr>\n"
+"    <!-- CONTENT -->\n"
+"    <tr>\n"
+"      <td align=\"center\" style=\"min-width: 590px;\">\n"
+"        <table width=\"590\" border=\"0\" cellpadding=\"0\" bgcolor=\"#ffffff\" style=\"min-width: 590px; background-color: rgb(255, 255, 255); padding: 20px; border-collapse:separate;\">\n"
+"          <tbody>\n"
+"            <td valign=\"top\" style=\"font-family:Arial,Helvetica,sans-serif; color: #555; font-size: 14px;\">\n"
+"              <p>Xin chào <t t-out=\"object.user_id.name\"></t>,</p>\n"
+"              <p>Ticket \"<t t-out=\"object.display_name\"></t>\" đã được đóng.</p>\n"
+"            </td>\n"
+"          </tbody>\n"
+"        </table>\n"
+"      </td>\n"
+"    </tr>\n"
+"    <!-- FOOTER -->\n"
+"    <tr>\n"
+"      <td align=\"center\" style=\"min-width: 590px;\">\n"
+"        <table width=\"590\" border=\"0\" cellpadding=\"0\" bgcolor=\"#875A7B\" style=\"min-width: 590px; background-color: rgb(135,90,123); padding: 20px; border-collapse:separate;\">\n"
+"          <tr>\n"
+"            <td valign=\"middle\" align=\"left\" style=\"color: #fff; padding-top: 10px; padding-bottom: 10px; font-size: 12px;\">\n"
+"              <t t-out=\"object.company_id.phone\"></t>\n"
+"            </td>\n"
+"            <td valign=\"middle\" align=\"left\" style=\"color: #fff; padding-top: 10px; padding-bottom: 10px; font-size: 12px;\">\n"
+"              <t t-out=\"object.company_id.email\"></t>\n"
+"            </td>\n"
+"            <td valign=\"middle\" align=\"left\" style=\"color: #fff; padding-top: 10px; padding-bottom: 10px; font-size: 12px;\">\n"
+"              <t t-out=\"object.company_id.website\"></t>\n"
+"            </td>\n"
+"          </tr>\n"
+"        </table>\n"
+"      </td>\n"
+"    </tr>\n"
+"  </tbody>\n"
+"</table>\n"
+
+#. module: SCTP_helpdesk
+#: model:mail.template,body_html:SCTP_helpdesk.changed_stage_template
+msgid ""
+"<table border=\"0\" width=\"100%\" cellpadding=\"0\" bgcolor=\"#ededed\" style=\"padding: 20px; background-color: #ededed; border-collapse:separate;\">\n"
+"                    <tbody>\n"
+"                      <!-- HEADER -->\n"
+"                      <tr>\n"
+"                        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"                          <table width=\"590\" border=\"0\" cellpadding=\"0\" bgcolor=\"#875A7B\" style=\"min-width: 590px; background-color: rgb(135,90,123); padding: 20px; border-collapse:separate;\">\n"
+"                            <tr>\n"
+"                              <td valign=\"middle\" align=\"right\">\n"
+"                                <img t-att-src=\"'/logo.png?company=%s' % object.company_id.id\" style=\"padding: 0px; margin: 0px; height: auto; width: 80px;\" t-att-alt=\"'%s' % object.company_id.name\">\n"
+"                              </td>\n"
+"                            </tr>\n"
+"                          </table>\n"
+"                        </td>\n"
+"                      </tr>\n"
+"                      <!-- CONTENT -->\n"
+"                      <tr>\n"
+"                        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"                          <table width=\"590\" border=\"0\" cellpadding=\"0\" bgcolor=\"#ffffff\" style=\"min-width: 590px; background-color: rgb(255, 255, 255); padding: 20px; border-collapse:separate;\">\n"
+"                            <tbody>\n"
+"                              <td valign=\"top\" style=\"font-family:Arial,Helvetica,sans-serif; color: #555; font-size: 14px;\">\n"
+"                                <p>Hello <t t-out=\"object.user_id.name\"></t>,</p>\n"
+"                                <p>The ticket \"<t t-out=\"object.display_name\"></t>\" stage has changed to <t t-out=\"object.stage_id.name\"></t>.</p>\n"
+"                              </td>\n"
+"                            </tbody>\n"
+"                          </table>\n"
+"                        </td>\n"
+"                      </tr>\n"
+"                      <!-- FOOTER -->\n"
+"                      <tr>\n"
+"                        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"                          <table width=\"590\" border=\"0\" cellpadding=\"0\" bgcolor=\"#875A7B\" style=\"min-width: 590px; background-color: rgb(135,90,123); padding: 20px; border-collapse:separate;\">\n"
+"                            <tr>\n"
+"                              <td valign=\"middle\" align=\"left\" style=\"color: #fff; padding-top: 10px; padding-bottom: 10px; font-size: 12px;\">\n"
+"                                <t t-out=\"object.company_id.phone\"></t>\n"
+"                              </td>\n"
+"                              <td valign=\"middle\" align=\"left\" style=\"color: #fff; padding-top: 10px; padding-bottom: 10px; font-size: 12px;\">\n"
+"                                <t t-out=\"object.company_id.email\"></t>\n"
+"                              </td>\n"
+"                              <td valign=\"middle\" align=\"left\" style=\"color: #fff; padding-top: 10px; padding-bottom: 10px; font-size: 12px;\">\n"
+"                                <t t-out=\"object.company_id.website\"></t>\n"
+"                              </td>\n"
+"                            </tr>\n"
+"                          </table>\n"
+"                        </td>\n"
+"                      </tr>\n"
+"                    </tbody>\n"
+"                </table>\n"
+"            "
+msgstr ""
+"<table border=\"0\" width=\"100%\" cellpadding=\"0\" bgcolor=\"#ededed\" style=\"padding: 20px; background-color: #ededed; border-collapse:separate;\">\n"
+"  <tbody>\n"
+"    <!-- HEADER -->\n"
+"    <tr>\n"
+"      <td align=\"center\" style=\"min-width: 590px;\">\n"
+"        <table width=\"590\" border=\"0\" cellpadding=\"0\" bgcolor=\"#875A7B\" style=\"min-width: 590px; background-color: rgb(135,90,123); padding: 20px; border-collapse:separate;\">\n"
+"          <tr>\n"
+"            <td valign=\"middle\" align=\"right\">\n"
+"              <img t-att-src=\"'/logo.png?company=%s' % object.company_id.id\" style=\"padding: 0px; margin: 0px; height: auto; width: 80px;\" t-att-alt=\"'%s' % object.company_id.name\">\n"
+"            </td>\n"
+"          </tr>\n"
+"        </table>\n"
+"      </td>\n"
+"    </tr>\n"
+"    <!-- CONTENT -->\n"
+"    <tr>\n"
+"      <td align=\"center\" style=\"min-width: 590px;\">\n"
+"        <table width=\"590\" border=\"0\" cellpadding=\"0\" bgcolor=\"#ffffff\" style=\"min-width: 590px; background-color: rgb(255, 255, 255); padding: 20px; border-collapse:separate;\">\n"
+"          <tbody>\n"
+"            <td valign=\"top\" style=\"font-family:Arial,Helvetica,sans-serif; color: #555; font-size: 14px;\">\n"
+"              <p>Xin chào <t t-out=\"object.user_id.name\"></t>,</p>\n"
+"              <p>Giai đoạn của Ticket \"<t t-out=\"object.display_name\"></t>\" đã được chuyển sang <t t-out=\"object.stage_id.name\"></t>.</p>\n"
+"            </td>\n"
+"          </tbody>\n"
+"        </table>\n"
+"      </td>\n"
+"    </tr>\n"
+"    <!-- FOOTER -->\n"
+"    <tr>\n"
+"      <td align=\"center\" style=\"min-width: 590px;\">\n"
+"        <table width=\"590\" border=\"0\" cellpadding=\"0\" bgcolor=\"#875A7B\" style=\"min-width: 590px; background-color: rgb(135,90,123); padding: 20px; border-collapse:separate;\">\n"
+"          <tr>\n"
+"            <td valign=\"middle\" align=\"left\" style=\"color: #fff; padding-top: 10px; padding-bottom: 10px; font-size: 12px;\">\n"
+"              <t t-out=\"object.company_id.phone\"></t>\n"
+"            </td>\n"
+"            <td valign=\"middle\" align=\"left\" style=\"color: #fff; padding-top: 10px; padding-bottom: 10px; font-size: 12px;\">\n"
+"              <t t-out=\"object.company_id.email\"></t>\n"
+"            </td>\n"
+"            <td valign=\"middle\" align=\"left\" style=\"color: #fff; padding-top: 10px; padding-bottom: 10px; font-size: 12px;\">\n"
+"              <t t-out=\"object.company_id.website\"></t>\n"
+"            </td>\n"
+"          </tr>\n"
+"        </table>\n"
+"      </td>\n"
+"    </tr>\n"
+"  </tbody>\n"
+"</table>\n"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,help:SCTP_helpdesk.field_helpdesk_ticket_team__alias_defaults
+msgid ""
+"A Python dictionary that will be evaluated to provide default values when "
+"creating new records for this alias."
+msgstr ""
+"Một từ điển Python sẽ được đánh giá để cung cấp các giá trị mặc định khi tạo"
+" bản ghi mới cho bí danh này."
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_team_form
+msgid "Accept Emails From"
+msgstr "Chấp nhận email từ"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__access_warning
+msgid "Access warning"
+msgstr "Cảnh báo truy cập"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__message_needaction
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__message_needaction
+msgid "Action Needed"
+msgstr "Cần hành động"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__active
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_category__active
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_channel__active
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_stage__active
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_tag__active
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__active
+msgid "Active"
+msgstr "Đang hoạt động"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_team_tree
+msgid "Active tickets"
+msgstr "Ticket đang hoạt động"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__activity_ids
+msgid "Activities"
+msgstr "Hoạt động"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Đánh dấu ngoại lệ hoạt động"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__activity_state
+msgid "Activity State"
+msgstr "Trạng thái hoạt động"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Biểu tượng loại hoạt động"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__alias_contact
+msgid "Alias Contact Security"
+msgstr "Bảo mật liên hệ bí danh"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__alias_domain_id
+msgid "Alias Domain"
+msgstr "Miền bí danh"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__alias_domain
+msgid "Alias Domain Name"
+msgstr "Tên miền bí danh"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__alias_full_name
+msgid "Alias Email"
+msgstr "Email bí danh"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__alias_name
+msgid "Alias Name"
+msgstr "Tên bí danh"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__alias_status
+msgid "Alias Status"
+msgstr "Trạng thái bí danh"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,help:SCTP_helpdesk.field_helpdesk_ticket_team__alias_status
+msgid "Alias status assessed on the last message received."
+msgstr "Trạng thái bí danh được đánh giá dựa trên tin nhắn nhận gần nhất."
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__alias_model_id
+msgid "Aliased Model"
+msgstr "Mô hình được gán bí danh"
+
+#. module: SCTP_helpdesk
+#. odoo-python
+#: code:addons/SCTP_helpdesk/controllers/myaccount.py:0
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.helpdesk_ticket_kanban_view
+#, python-format
+msgid "All"
+msgstr "Tất cả"
+
+#. module: SCTP_helpdesk
+#: model:ir.ui.menu,name:SCTP_helpdesk.helpdesk_all_ticket_menu
+msgid "All Tickets"
+msgstr "Tất cả Ticket"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,help:SCTP_helpdesk.field_helpdesk_ticket_team__show_in_portal
+msgid "Allow to select this team when creating a new ticket in the portal."
+msgstr "Cho phép chọn team này khi tạo ticket mới trên cổng thông tin."
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.helpdesk_ticket_view_search
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.ticket_view_form
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_category_form
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_channel_form
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_team_form
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_ticket_category_search
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_ticket_channel_search
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_ticket_stage_form
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_ticket_stage_search
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_ticket_tag_form
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_ticket_tag_search
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_ticket_team_search
+msgid "Archived"
+msgstr "Đã lưu trữ"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.ticket_view_form
+msgid "Assign to me"
+msgstr "Gán cho tôi"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__assigned_date
+msgid "Assigned Date"
+msgstr "Ngày được gán"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__user_id
+msgid "Assigned user"
+msgstr "Người phụ trách"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__message_attachment_count
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__message_attachment_count
+msgid "Attachment Count"
+msgstr "Số lượng tệp đính kèm"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_team_form
+msgid "Avatar"
+msgstr "Ảnh đại diện"
+
+#. module: SCTP_helpdesk
+#: model:helpdesk.ticket.stage,name:SCTP_helpdesk.helpdesk_ticket_stage_awaiting
+msgid "Awaiting"
+msgstr "Chưa xử lý"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields.selection,name:SCTP_helpdesk.selection__helpdesk_ticket__kanban_state__blocked
+msgid "Blocked"
+msgstr "Bị chặn"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_create_ticket
+msgid ""
+"Bước tái hiện, kỳ vọng, ảnh hưởng, mã lỗi/log & đường dẫn màn hình (nếu có)…"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_create_ticket
+msgid "Bộ phận phụ trách"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model:helpdesk.ticket.stage,name:SCTP_helpdesk.helpdesk_ticket_stage_cancelled
+msgid "Cancelled"
+msgstr "Đã hủy"
+
+#. module: SCTP_helpdesk
+#: model:ir.actions.act_window,name:SCTP_helpdesk.helpdesk_ticket_category_action
+#: model:ir.ui.menu,name:SCTP_helpdesk.helpdesk_ticket_category_menu
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.res_config_settings_view_form
+msgid "Categories"
+msgstr "Danh mục hỗ trợ"
+
+#. module: SCTP_helpdesk
+#. odoo-python
+#: code:addons/SCTP_helpdesk/controllers/myaccount.py:0
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__category_id
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__category_ids
+#, python-format
+msgid "Category"
+msgstr "Danh mục hỗ trợ"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__channel_id
+msgid "Channel"
+msgstr "Kênh"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,help:SCTP_helpdesk.field_helpdesk_ticket__channel_id
+msgid ""
+"Channel indicates where the source of a ticketcomes from (it could be a "
+"phone call, an email...)"
+msgstr "Kênh cho biết nguồn tạo ticket (có thể là cuộc gọi, email, ...)"
+
+#. module: SCTP_helpdesk
+#: model:ir.actions.act_window,name:SCTP_helpdesk.helpdesk_ticket_channel_action
+#: model:ir.ui.menu,name:SCTP_helpdesk.helpdesk_ticket_channel_menu
+msgid "Channels"
+msgstr "Kênh"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_category__child_id
+msgid "Child Categories"
+msgstr "Nhóm con"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_create_ticket
+msgid "Chọn đúng team giúp điều phối nhanh hơn."
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_stage__close_from_portal
+msgid "Close From Portal"
+msgstr "Đóng từ cổng thông tin"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__closed
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_stage__closed
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.helpdesk_ticket_kanban_view
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.helpdesk_ticket_view_search
+msgid "Closed"
+msgstr "Hoàn thành"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__closed_date
+msgid "Closed Date"
+msgstr "Ngày đóng"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__color
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_tag__color
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__color
+msgid "Color Index"
+msgstr "Chỉ số màu"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.helpdesk_ticket_view_search
+msgid "Commercial Entity"
+msgstr "Thực thể thương mại"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__commercial_partner_id
+msgid "Commercial Partner"
+msgstr "Đối tác thương mại"
+
+#. module: SCTP_helpdesk
+#: model:ir.model,name:SCTP_helpdesk.model_res_company
+msgid "Companies"
+msgstr "Công ty"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__company_id
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_category__company_id
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_channel__company_id
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_stage__company_id
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_tag__company_id
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__company_id
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_ticket_category_search
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_ticket_channel_search
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_ticket_stage_search
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_ticket_team_search
+msgid "Company"
+msgstr "Công ty"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_category__complete_name
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__complete_name
+msgid "Complete Name"
+msgstr "Tên đầy đủ"
+
+#. module: SCTP_helpdesk
+#: model:ir.model,name:SCTP_helpdesk.model_res_config_settings
+msgid "Config Settings"
+msgstr "Cài đặt cấu hình"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.res_config_settings_view_form
+msgid "Config Team"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model:ir.ui.menu,name:SCTP_helpdesk.helpdesk_ticket_config_main_menu
+msgid "Configuration"
+msgstr "Cấu hình"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_team_form
+msgid "Configure domain name"
+msgstr "Cấu hình tên miền"
+
+#. module: SCTP_helpdesk
+#: model:ir.model,name:SCTP_helpdesk.model_res_partner
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__partner_id
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_helpdesk_ticket_page
+msgid "Contact"
+msgstr "Liên hệ"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.disable_header_call_to_action
+msgid "Contact Us"
+msgstr "Khách hàng"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.res_config_settings_view_form
+msgid "Controls if the categories are required on the portal"
+msgstr "Kiểm soát việc trường nhóm có bắt buộc trên cổng thông tin hay không"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.res_config_settings_view_form
+msgid ""
+"Controls if the teams are visible on the portal and if they are required."
+msgstr ""
+"Kiểm soát việc hiển thị team trên cổng thông tin và liệu có bắt buộc hay "
+"không."
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__create_uid
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_category__create_uid
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_channel__create_uid
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_stage__create_uid
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_tag__create_uid
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__create_uid
+msgid "Created by"
+msgstr "Tạo bởi"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__create_date
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_category__create_date
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_channel__create_date
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_stage__create_date
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_tag__create_date
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__create_date
+msgid "Created on"
+msgstr "Tạo vào"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__alias_bounced_content
+msgid "Custom Bounced Message"
+msgstr "Nội dung thông báo trả lại tuỳ chỉnh"
+
+#. module: SCTP_helpdesk
+#. odoo-python
+#: code:addons/SCTP_helpdesk/models/helpdesk_ticket.py:0
+#, python-format
+msgid "Customer"
+msgstr "Khách hàng"
+
+#. module: SCTP_helpdesk
+#. odoo-python
+#: code:addons/SCTP_helpdesk/models/helpdesk_ticket.py:0
+#, python-format
+msgid "Customer Email"
+msgstr "Email khách hàng"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,help:SCTP_helpdesk.field_helpdesk_ticket__access_url
+msgid "Customer Portal URL"
+msgstr "URL cổng thông tin khách hàng"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_create_ticket
+msgid "Càng cụ thể, xử lý càng nhanh."
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_ticket_list
+msgid "Cập nhật giai đoạn gần nhất"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_helpdesk_ticket_page
+msgid "Cập nhật gần nhất:"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_ticket_list
+msgid "Danh mục hỗ trợ"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model:ir.actions.act_window,name:SCTP_helpdesk.helpdesk_ticket_dashboard_action
+#: model:ir.ui.menu,name:SCTP_helpdesk.helpdesk_ticket_dashboard_menu
+msgid "Dashboard"
+msgstr "Bảng điều khiển"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields.selection,name:SCTP_helpdesk.selection__helpdesk_ticket__kanban_state__normal
+msgid "Default"
+msgstr "Mặc định"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_res_company__SCTP_helpdeskdefault_team_id
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_res_config_settings__SCTP_helpdeskdefault_team_id
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.res_config_settings_view_form
+msgid "Default Team"
+msgstr "Mặc định Team"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.res_config_settings_view_form
+msgid "Default Team When Create Ticket"
+msgstr "Mặc định Team khi tạo Ticket"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__alias_defaults
+msgid "Default Values"
+msgstr "Giá trị mặc định"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_ticket_kanban
+msgid "Delete"
+msgstr "Xóa"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__description
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_stage__description
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.ticket_view_form
+msgid "Description"
+msgstr "Mô tả"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.res_config_settings_view_form
+msgid "Display"
+msgstr "Hiển thị"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__display_name
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_category__display_name
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_channel__display_name
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_stage__display_name
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_tag__display_name
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__display_name
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,help:SCTP_helpdesk.field_helpdesk_ticket_stage__close_from_portal
+msgid ""
+"Display button in portal ticket form to allow closing ticket with this stage"
+" as target."
+msgstr ""
+"Hiển thị nút trong form ticket trên cổng thông tin để cho phép đóng ticket "
+"với giai đoạn này là đích đến."
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_ticket_category_search
+msgid "Displayed in portal"
+msgstr "Hiển thị trên cổng thông tin"
+
+#. module: SCTP_helpdesk
+#: model:helpdesk.ticket.stage,name:SCTP_helpdesk.helpdesk_ticket_stage_done
+msgid "Done"
+msgstr "Hoàn tất"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_create_ticket
+msgid "Dung lượng tối đa:"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model:ir.actions.server,name:SCTP_helpdesk.action_duplicate_ticket
+msgid "Duplicate"
+msgstr "Nhân bản"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_ticket_kanban
+msgid "Edit"
+msgstr "Sửa"
+
+#. module: SCTP_helpdesk
+#: model:helpdesk.ticket.channel,name:SCTP_helpdesk.helpdesk_ticket_channel_email
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__partner_email
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__alias_id
+msgid "Email"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__alias_email
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_team_form
+msgid "Email Alias"
+msgstr "Email bí danh"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_stage__mail_template_id
+msgid "Email Template"
+msgstr "Mẫu email"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__email_cc
+msgid "Email cc"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,help:SCTP_helpdesk.field_helpdesk_ticket_team__alias_domain
+msgid "Email domain e.g. 'example.com' in 'odoo@example.com'"
+msgstr "Miền email, ví dụ: 'example.com' trong 'odoo@example.com'"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_stage__fold
+msgid "Folded in Kanban"
+msgstr "Gập trong Kanban"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_team_form
+msgid ""
+"Follow this salesteam to automatically track the events associated to users "
+"of this team."
+msgstr ""
+"Theo dõi nhóm bán hàng này để tự động theo dõi các sự kiện liên quan đến "
+"người dùng của team."
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__message_follower_ids
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__message_follower_ids
+msgid "Followers"
+msgstr "Người theo dõi"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__message_partner_ids
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Người theo dõi (Đối tác)"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,help:SCTP_helpdesk.field_helpdesk_ticket__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Biểu tượng Font Awesome, ví dụ: fa-tasks"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.helpdesk_ticket_view_search
+msgid "Future Activities"
+msgstr "Hoạt động sắp tới"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_create_ticket
+msgid ""
+"Ghi rõ vấn đề, bước tái hiện &amp; ảnh/log kèm theo để đội ngũ xử lý nhanh "
+"hơn."
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_ticket_list
+msgid "Giai đoạn"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_helpdesk_ticket_page
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_ticket_list
+msgid "Giai đoạn hiện tại của ticket"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,help:SCTP_helpdesk.field_helpdesk_ticket__sequence
+msgid "Gives the sequence order when displaying a list of tickets."
+msgstr "Xác định thứ tự khi hiển thị danh sách ticket."
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.helpdesk_ticket_view_search
+msgid "Group By"
+msgstr "Nhóm theo"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_create_ticket
+msgid "Gửi Ticket"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.custom_footer
+msgid "Gửi ticket nhanh, mô tả rõ ràng để đội ngũ xử lý hiệu quả hơn."
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model:ir.model,name:SCTP_helpdesk.model_ir_http
+msgid "HTTP Routing"
+msgstr "Định tuyến HTTP"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__has_message
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__has_message
+msgid "Has Message"
+msgstr "Có tin nhắn"
+
+#. module: SCTP_helpdesk
+#: model:ir.module.category,name:SCTP_helpdesk.module_helpdesk_category
+#: model:ir.ui.menu,name:SCTP_helpdesk.helpdesk_ticket_main_menu
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.res_config_settings_view_form
+msgid "Helpdesk"
+msgstr "Trung tâm hỗ trợ"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_ticket_category_search
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_ticket_channel_search
+msgid "Helpdesk Category Search"
+msgstr "Tìm kiếm nhóm Helpdesk"
+
+#. module: SCTP_helpdesk
+#: model:mail.template,name:SCTP_helpdesk.changed_stage_template
+msgid "Helpdesk Changed Stage notification Email"
+msgstr "Email thông báo thay đổi giai đoạn Helpdesk"
+
+#. module: SCTP_helpdesk
+#: model:mail.template,name:SCTP_helpdesk.closed_ticket_template
+msgid "Helpdesk Closed Ticket Notification Email"
+msgstr "Email thông báo Ticket Helpdesk đã đóng"
+
+#. module: SCTP_helpdesk
+#: model:res.groups,name:SCTP_helpdesk.group_helpdesk_manager
+msgid "Helpdesk Manager"
+msgstr "Quản trị ticket"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_res_users__helpdesk_team_ids
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_team_form
+msgid "Helpdesk Team"
+msgstr "Team Helpdesk"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_ticket_team_search
+msgid "Helpdesk Team Search"
+msgstr "Tìm kiếm team Helpdesk"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_team_form
+msgid "Helpdesk Team name..."
+msgstr "Tên team Helpdesk..."
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_stage__team_ids
+msgid "Helpdesk Teams"
+msgstr "Các team Helpdesk"
+
+#. module: SCTP_helpdesk
+#: model:ir.actions.act_window,name:SCTP_helpdesk.action_helpdesk_ticket_kanban_from_dashboard
+#: model:ir.model,name:SCTP_helpdesk.model_helpdesk_ticket
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.ticket_view_form
+msgid "Helpdesk Ticket"
+msgstr "Ticket Helpdesk"
+
+#. module: SCTP_helpdesk
+#: model:ir.model,name:SCTP_helpdesk.model_helpdesk_ticket_category
+msgid "Helpdesk Ticket Category"
+msgstr "Nhóm Ticket Helpdesk"
+
+#. module: SCTP_helpdesk
+#: model:ir.model,name:SCTP_helpdesk.model_helpdesk_ticket_channel
+msgid "Helpdesk Ticket Channel"
+msgstr "Kênh Ticket Helpdesk"
+
+#. module: SCTP_helpdesk
+#: model:mail.message.subtype,name:SCTP_helpdesk.hlp_tck_team_created
+msgid "Helpdesk Ticket Created"
+msgstr "Ticket Helpdesk đã tạo"
+
+#. module: SCTP_helpdesk
+#: model:ir.model,name:SCTP_helpdesk.model_helpdesk_ticket_stage
+msgid "Helpdesk Ticket Stage"
+msgstr "Giai đoạn Ticket Helpdesk"
+
+#. module: SCTP_helpdesk
+#: model:ir.model,name:SCTP_helpdesk.model_helpdesk_ticket_tag
+msgid "Helpdesk Ticket Tag"
+msgstr "Thẻ Ticket Helpdesk"
+
+#. module: SCTP_helpdesk
+#: model:ir.model,name:SCTP_helpdesk.model_helpdesk_ticket_team
+msgid "Helpdesk Ticket Team"
+msgstr "Team Ticket Helpdesk"
+
+#. module: SCTP_helpdesk
+#: model:ir.module.category,description:SCTP_helpdesk.module_helpdesk_category
+msgid "Helps you handle your helpdesk security."
+msgstr "Giúp bạn xử lý bảo mật cho helpdesk."
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields.selection,name:SCTP_helpdesk.selection__helpdesk_ticket__priority__2
+msgid "High"
+msgstr "Cao"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.helpdesk_ticket_kanban_view
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.helpdesk_ticket_view_search
+msgid "High Priority"
+msgstr "Ưu tiên cao"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__id
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_category__id
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_channel__id
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_stage__id
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_tag__id
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__id
+msgid "ID"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,help:SCTP_helpdesk.field_helpdesk_ticket_team__alias_parent_thread_id
+msgid ""
+"ID of the parent record holding the alias (example: project holding the task"
+" creation alias)"
+msgstr ""
+"ID của bản ghi cha chứa bí danh (ví dụ: dự án chứa bí danh tạo tác vụ)."
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__activity_exception_icon
+msgid "Icon"
+msgstr "Biểu tượng"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,help:SCTP_helpdesk.field_helpdesk_ticket__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Biểu tượng để chỉ thị hoạt động ngoại lệ."
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,help:SCTP_helpdesk.field_helpdesk_ticket__message_needaction
+#: model:ir.model.fields,help:SCTP_helpdesk.field_helpdesk_ticket_team__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Nếu chọn, tin nhắn mới cần bạn xử lý."
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,help:SCTP_helpdesk.field_helpdesk_ticket__message_has_error
+#: model:ir.model.fields,help:SCTP_helpdesk.field_helpdesk_ticket__message_has_sms_error
+#: model:ir.model.fields,help:SCTP_helpdesk.field_helpdesk_ticket_team__message_has_error
+#: model:ir.model.fields,help:SCTP_helpdesk.field_helpdesk_ticket_team__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Nếu chọn, một số tin nhắn bị lỗi gửi."
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,help:SCTP_helpdesk.field_helpdesk_ticket_stage__mail_template_id
+msgid ""
+"If set an email will be sent to the customer when the ticketreaches this "
+"step."
+msgstr "Nếu thiết lập, sẽ gửi email cho khách hàng khi ticket tới bước này."
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,help:SCTP_helpdesk.field_helpdesk_ticket_team__alias_bounced_content
+msgid ""
+"If set, this content will automatically be sent out to unauthorized users "
+"instead of the default message."
+msgstr ""
+"Nếu thiết lập, nội dung này sẽ tự động gửi cho người dùng không được phép "
+"thay vì thông điệp mặc định."
+
+#. module: SCTP_helpdesk
+#: model:helpdesk.ticket.stage,name:SCTP_helpdesk.helpdesk_ticket_stage_in_progress
+msgid "In Progress"
+msgstr "Đang xử lý"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__message_is_follower
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__message_is_follower
+msgid "Is Follower"
+msgstr "Là người theo dõi"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,help:SCTP_helpdesk.field_helpdesk_ticket__duration_tracking
+msgid "JSON that maps ids from a many2one field to seconds spent"
+msgstr "JSON ánh xạ id từ trường many2one sang số giây đã dùng"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__kanban_state
+msgid "Kanban State"
+msgstr "Trạng thái Kanban"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_my_tickets
+msgid "Không tìm thấy ticket nào."
+msgstr ""
+
+#. module: SCTP_helpdesk
+#. odoo-python
+#: code:addons/SCTP_helpdesk/controllers/myaccount.py:0
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__last_stage_update
+#, python-format
+msgid "Last Stage Update"
+msgstr "Cập nhật giai đoạn gần nhất"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__write_uid
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_category__write_uid
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_channel__write_uid
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_stage__write_uid
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_tag__write_uid
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__write_uid
+msgid "Last Updated by"
+msgstr "Cập nhật lần cuối bởi"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__write_date
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_category__write_date
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_channel__write_date
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_stage__write_date
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_tag__write_date
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__write_date
+msgid "Last Updated on"
+msgstr "Cập nhật lần cuối vào"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.helpdesk_ticket_view_search
+msgid "Last Week"
+msgstr "Tuần trước"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.helpdesk_ticket_view_search
+msgid "Late Activities"
+msgstr "Hoạt động trễ hạn"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__alias_incoming_local
+msgid "Local-part based incoming detection"
+msgstr "Phát hiện thư đến dựa trên local-part"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields.selection,name:SCTP_helpdesk.selection__helpdesk_ticket__priority__0
+msgid "Low"
+msgstr "Thấp"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_helpdesk_ticket_page
+msgid "Lịch sử tin nhắn và trao đổi"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_create_ticket
+msgid "MB (tổng các file)."
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__attachment_ids
+msgid "Media Attachments"
+msgstr "Tệp đa phương tiện đính kèm"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields.selection,name:SCTP_helpdesk.selection__helpdesk_ticket__priority__1
+msgid "Medium"
+msgstr "Trung bình"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__user_ids
+msgid "Members"
+msgstr "Thành viên"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__message_has_error
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__message_has_error
+msgid "Message Delivery error"
+msgstr "Lỗi gửi tin nhắn"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__message_ids
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__message_ids
+msgid "Messages"
+msgstr "Tin nhắn"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.helpdesk_ticket_view_search
+msgid "My Activities"
+msgstr "Hoạt động của tôi"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "Hạn chót hoạt động của tôi"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.helpdesk_ticket_view_search
+msgid "My Followed Tickets"
+msgstr "Ticket tôi theo dõi"
+
+#. module: SCTP_helpdesk
+#: model:ir.actions.act_window,name:SCTP_helpdesk.helpdesk_my_tickets_action
+#: model:ir.ui.menu,name:SCTP_helpdesk.helpdesk_own_ticket_menu
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.helpdesk_ticket_view_search
+msgid "My Tickets"
+msgstr "Ticket của tôi"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_helpdesk_ticket_page
+msgid "Mô tả"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_create_ticket
+msgid "Mô tả chi tiết"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_category__name
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_channel__name
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_tag__name
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__name
+msgid "Name"
+msgstr "Tên"
+
+#. module: SCTP_helpdesk
+#: model:helpdesk.ticket.stage,name:SCTP_helpdesk.helpdesk_ticket_stage_new
+msgid "New"
+msgstr "Mới"
+
+#. module: SCTP_helpdesk
+#. odoo-python
+#: code:addons/SCTP_helpdesk/controllers/myaccount.py:0
+#, python-format
+msgid "Newest"
+msgstr "Mới nhất"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Hạn chót hoạt động kế tiếp"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__activity_summary
+msgid "Next Activity Summary"
+msgstr "Tóm tắt hoạt động kế tiếp"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__activity_type_id
+msgid "Next Activity Type"
+msgstr "Loại hoạt động kế tiếp"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_ticket_list
+msgid "Ngày tạo"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_ticket_list
+msgid "Ngày đóng"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_ticket_list
+msgid "Người tạo"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_create_ticket
+msgid "Nhóm vấn đề"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#. odoo-python
+#: code:addons/SCTP_helpdesk/models/helpdesk_ticket.py:0
+#, python-format
+msgid "No Subject"
+msgstr "Không có tiêu đề"
+
+#. module: SCTP_helpdesk
+#. odoo-python
+#: code:addons/SCTP_helpdesk/controllers/myaccount.py:0
+#, python-format
+msgid "None"
+msgstr "Không"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__message_needaction_counter
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Số hành động"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__message_has_error_counter
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__message_has_error_counter
+msgid "Number of errors"
+msgstr "Số lỗi"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,help:SCTP_helpdesk.field_helpdesk_ticket__message_needaction_counter
+#: model:ir.model.fields,help:SCTP_helpdesk.field_helpdesk_ticket_team__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Số tin nhắn cần xử lý"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,help:SCTP_helpdesk.field_helpdesk_ticket__message_has_error_counter
+#: model:ir.model.fields,help:SCTP_helpdesk.field_helpdesk_ticket_team__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Số tin nhắn bị lỗi gửi"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__todo_ticket_count
+msgid "Number of tickets"
+msgstr "Số ticket"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__todo_ticket_count_closed
+msgid "Number of tickets closed"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__todo_ticket_count_high_priority
+msgid "Number of tickets in high priority"
+msgstr "Số ticket ưu tiên cao"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__todo_ticket_count_proccesing
+msgid "Number of tickets proccesing"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__todo_ticket_count_unassigned
+msgid "Number of tickets unassigned"
+msgstr "Số ticket phân công"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__todo_ticket_count_unattended
+msgid "Number of tickets unattended"
+msgstr "Số ticket chưa xử lý"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,help:SCTP_helpdesk.field_helpdesk_ticket_team__alias_force_thread_id
+msgid ""
+"Optional ID of a thread (record) to which all incoming messages will be "
+"attached, even if they did not reply to it. If set, this will disable the "
+"creation of new records completely."
+msgstr ""
+"ID tuỳ chọn của một bản ghi để mọi thư đến sẽ được đính kèm, ngay cả khi "
+"không phải trả lời. Nếu đặt, tính năng tạo bản ghi mới sẽ bị vô hiệu hoàn "
+"toàn."
+
+#. module: SCTP_helpdesk
+#: model:helpdesk.ticket.channel,name:SCTP_helpdesk.helpdesk_ticket_channel_other
+msgid "Other"
+msgstr "Khác"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.ticket_view_form
+msgid "Other Information"
+msgstr "Thông tin khác"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_category__parent_id
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_ticket_category_search
+msgid "Parent Category"
+msgstr "Nhóm cha"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__alias_parent_model_id
+msgid "Parent Model"
+msgstr "Mô hình cha"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_category__parent_path
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__parent_path
+msgid "Parent Path"
+msgstr "Đường dẫn cha"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__alias_parent_thread_id
+msgid "Parent Record Thread ID"
+msgstr "ID luồng bản ghi cha"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__parent_id
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_team_form
+msgid "Parent Team"
+msgstr "Team cha"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_team_form
+msgid "Parent Team name..."
+msgstr "Tên team cha..."
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,help:SCTP_helpdesk.field_helpdesk_ticket_team__alias_parent_model_id
+msgid ""
+"Parent model holding the alias. The model holding the alias reference is not"
+" necessarily the model given by alias_model_id (example: project "
+"(parent_model) and task (model))"
+msgstr ""
+"Mô hình cha giữ bí danh. Mô hình tham chiếu bí danh không nhất thiết trùng "
+"với alias_model_id (ví dụ: dự án (parent_model) và tác vụ (model))."
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.helpdesk_ticket_view_search
+msgid "Partner"
+msgstr "Khách hàng"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__partner_name
+msgid "Partner Name"
+msgstr "Tên khách hàng"
+
+#. module: SCTP_helpdesk
+#: model:helpdesk.ticket.channel,name:SCTP_helpdesk.helpdesk_ticket_channel_phone
+msgid "Phone"
+msgstr "Điện thoại"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.helpdesk_ticket_views_pivot
+msgid "Pivot Analysis"
+msgstr "Phân tích dạng trục"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,help:SCTP_helpdesk.field_helpdesk_ticket_team__alias_contact
+msgid ""
+"Policy to post a message on the document using the mailgateway.\n"
+"- everyone: everyone can post\n"
+"- partners: only authenticated partners\n"
+"- followers: only followers of the related document or members of following channels\n"
+msgstr ""
+"Chính sách đăng tin nhắn lên tài liệu qua mailgateway.\n"
+"- everyone: mọi người đều có thể đăng\n"
+"- partners: chỉ đối tác đã xác thực\n"
+"- followers: chỉ người theo dõi tài liệu liên quan hoặc thành viên các kênh theo dõi\n"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__access_url
+msgid "Portal Access URL"
+msgstr "URL truy cập cổng thông tin"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__priority
+msgid "Priority"
+msgstr "Mức ưu tiên"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_team_tree
+msgid "Priority tickets"
+msgstr "Ticket ưu tiên"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__proccesing
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_stage__proccesing
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.helpdesk_ticket_kanban_view
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.helpdesk_ticket_view_search
+msgid "Proccesing"
+msgstr "Đang xử lý"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_my_tickets
+msgid "Quản lý ticket của bạn — xem trạng thái, lịch sử, tập tin đính kèm."
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__rating_ids
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__rating_ids
+msgid "Ratings"
+msgstr "Đánh giá"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields.selection,name:SCTP_helpdesk.selection__helpdesk_ticket__kanban_state__done
+msgid "Ready for next stage"
+msgstr "Sẵn sàng cho giai đoạn tiếp theo"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__alias_force_thread_id
+msgid "Record Thread ID"
+msgstr "ID luồng bản ghi"
+
+#. module: SCTP_helpdesk
+#: model:helpdesk.ticket.stage,name:SCTP_helpdesk.helpdesk_ticket_stage_rejected
+msgid "Rejected"
+msgstr "Từ chối"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_res_partner__helpdesk_ticket_ids
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_res_users__helpdesk_ticket_ids
+msgid "Related tickets"
+msgstr "Ticket liên quan"
+
+#. module: SCTP_helpdesk
+#: model:ir.actions.act_window,name:SCTP_helpdesk.helpdesk_ticket_reporting_action
+#: model:ir.ui.menu,name:SCTP_helpdesk.helpdesk_ticket_reporting_menu
+msgid "Reporting"
+msgstr "Báo cáo"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.res_config_settings_view_form
+msgid "Required"
+msgstr "Bắt buộc"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_res_company__SCTP_helpdesk_portal_category_id_required
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_res_config_settings__SCTP_helpdesk_portal_category_id_required
+msgid "Required Category field in Helpdesk portal"
+msgstr "Bắt buộc trường Nhóm trên cổng Helpdesk"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_res_company__SCTP_helpdesk_portal_team_id_required
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_res_config_settings__SCTP_helpdesk_portal_team_id_required
+msgid "Required Team field in Helpdesk portal"
+msgstr "Bắt buộc trường Team trên cổng Helpdesk"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__activity_user_id
+msgid "Responsible User"
+msgstr "Người phụ trách"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__message_has_sms_error
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Lỗi gửi SMS"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.disable_header_search_box
+msgid "Search"
+msgstr "Tìm kiếm"
+
+#. module: SCTP_helpdesk
+#. odoo-python
+#: code:addons/SCTP_helpdesk/controllers/myaccount.py:0
+#, python-format
+msgid "Search in All"
+msgstr "Tìm trong tất cả"
+
+#. module: SCTP_helpdesk
+#. odoo-python
+#: code:addons/SCTP_helpdesk/controllers/myaccount.py:0
+#, python-format
+msgid "Search in Number"
+msgstr "Tìm theo Số"
+
+#. module: SCTP_helpdesk
+#. odoo-python
+#: code:addons/SCTP_helpdesk/controllers/myaccount.py:0
+#, python-format
+msgid "Search in Title"
+msgstr "Tìm theo Tiêu đề"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__access_token
+msgid "Security Token"
+msgstr "Mã bảo mật"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_res_company__SCTP_helpdesk_portal_select_team
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_res_config_settings__SCTP_helpdesk_portal_select_team
+msgid "Select team in Helpdesk portal"
+msgstr "Cho phép chọn team trên cổng Helpdesk"
+
+#. module: SCTP_helpdesk
+#. odoo-javascript
+#: code:addons/SCTP_helpdesk/static/src/js/new_ticket.esm.js:0
+#, python-format
+msgid "Selected: %s"
+msgstr "Đã chọn: %s"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__sequence
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_category__sequence
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_channel__sequence
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_stage__sequence
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_tag__sequence
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__sequence
+msgid "Sequence"
+msgstr "Thứ tự"
+
+#. module: SCTP_helpdesk
+#: model:ir.actions.act_window,name:SCTP_helpdesk.action_SCTP_helpdesk_config_settings
+#: model:ir.ui.menu,name:SCTP_helpdesk.helpdesk_config_settings_menu
+msgid "Settings"
+msgstr "Cài đặt"
+
+#. module: SCTP_helpdesk
+#: model:ir.actions.server,name:SCTP_helpdesk.model_helpdesk_ticket_action_share
+msgid "Share"
+msgstr "Chia sẻ"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_category__show_in_portal
+msgid "Show In Portal"
+msgstr "Hiển thị trên cổng thông tin"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.helpdesk_ticket_view_search
+msgid "Show all records which has next action date is before today"
+msgstr "Hiển thị tất cả bản ghi có ngày hành động tiếp theo trước hôm nay"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__show_in_portal
+msgid "Show in portal form"
+msgstr "Hiển thị trong biểu mẫu cổng thông tin"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,help:SCTP_helpdesk.field_helpdesk_ticket_stage__team_ids
+msgid ""
+"Specific team that uses this stage. If it is empty all teams could uses"
+msgstr ""
+"Team cụ thể sử dụng giai đoạn này. Nếu để trống, mọi team đều có thể sử "
+"dụng."
+
+#. module: SCTP_helpdesk
+#. odoo-python
+#: code:addons/SCTP_helpdesk/controllers/myaccount.py:0
+#: code:addons/SCTP_helpdesk/controllers/myaccount.py:0
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__stage_id
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.helpdesk_ticket_view_search
+#, python-format
+msgid "Stage"
+msgstr "Giai đoạn"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_stage__name
+msgid "Stage Name"
+msgstr "Tên giai đoạn"
+
+#. module: SCTP_helpdesk
+#: model:ir.actions.act_window,name:SCTP_helpdesk.helpdesk_ticket_stage_action
+#: model:ir.ui.menu,name:SCTP_helpdesk.helpdesk_ticket_stage_menu
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_category_form
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_channel_form
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_ticket_stage_form
+msgid "Stages"
+msgstr "Giai đoạn"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,help:SCTP_helpdesk.field_helpdesk_ticket__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Trạng thái dựa trên hoạt động\n"
+"Quá hạn: Ngày đến hạn đã qua\n"
+"Hôm nay: Ngày hoạt động là hôm nay\n"
+"Đã lên kế hoạch: Hoạt động trong tương lai."
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__duration_tracking
+msgid "Status time"
+msgstr "Thời gian trạng thái"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_ticket_list
+msgid "Số"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.helpdesk_ticket_view_search
+msgid "Tag"
+msgstr "Thẻ"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__tag_ids
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_ticket_tag_form
+msgid "Tags"
+msgstr "Thẻ"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__team_id
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.helpdesk_ticket_view_search
+msgid "Team"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__user_id
+msgid "Team Leader"
+msgstr "Trưởng nhóm"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_team_form
+msgid "Team Members"
+msgstr "Thành viên nhóm"
+
+#. module: SCTP_helpdesk
+#: model:ir.actions.act_window,name:SCTP_helpdesk.helpdesk_ticket_team_action
+#: model:ir.ui.menu,name:SCTP_helpdesk.helpdesk_ticket_team_menu
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.res_config_settings_view_form
+msgid "Teams"
+msgstr "Các team"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,help:SCTP_helpdesk.field_helpdesk_ticket_team__alias_id
+msgid ""
+"The email address associated with                                this "
+"channel. New emails received will                                "
+"automatically create new tickets assigned                                to "
+"the channel."
+msgstr ""
+"Địa chỉ email liên kết với kênh này. Email mới nhận sẽ tự động tạo ticket "
+"mới được gán cho kênh."
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,help:SCTP_helpdesk.field_helpdesk_ticket_team__alias_model_id
+msgid ""
+"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+" email that does not reply to an existing record will cause the creation of "
+"a new record of this model (e.g. a Project Task)"
+msgstr ""
+"Mô hình (Loại tài liệu Odoo) mà bí danh này tương ứng. Bất kỳ email đến nào "
+"không trả lời bản ghi hiện có sẽ tạo bản ghi mới của mô hình này (ví dụ: Tác"
+" vụ Dự án)."
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,help:SCTP_helpdesk.field_helpdesk_ticket_team__alias_name
+msgid ""
+"The name of the email alias, e.g. 'jobs' if you want to catch emails for "
+"<jobs@example.odoo.com>"
+msgstr ""
+"Tên bí danh email, ví dụ 'jobs' nếu bạn muốn nhận email cho "
+"<jobs@example.odoo.com>"
+
+#. module: SCTP_helpdesk
+#. odoo-javascript
+#: code:addons/SCTP_helpdesk/static/src/js/new_ticket.esm.js:0
+#, python-format
+msgid "The selected file (%sB) is over the maximum allowed file size (%sB)."
+msgstr "Tệp đã chọn (%sB) vượt quá kích thước tối đa cho phép (%sB)."
+
+#. module: SCTP_helpdesk
+#: model:mail.template,subject:SCTP_helpdesk.closed_ticket_template
+msgid "The ticket {{object.number}} has been closed."
+msgstr "Ticket {{object.number}} đã được đóng."
+
+#. module: SCTP_helpdesk
+#: model:mail.template,subject:SCTP_helpdesk.changed_stage_template
+msgid "The ticket {{object.number}} stage has changed."
+msgstr "Giai đoạn của ticket {{object.number}} đã thay đổi."
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,help:SCTP_helpdesk.field_helpdesk_ticket_stage__fold
+msgid ""
+"This stage is folded in the kanban view when there are no records in that "
+"stage to display."
+msgstr ""
+"Giai đoạn này sẽ được gập trong chế độ xem kanban khi không có bản ghi nào "
+"để hiển thị."
+
+#. module: SCTP_helpdesk
+#: model:website.menu,name:SCTP_helpdesk.main_ticket
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.helpdesk_ticket_view_search
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_layout
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_my_home
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_my_tickets
+msgid "Ticket"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model:mail.template,name:SCTP_helpdesk.assignment_email_template
+msgid "Ticket Assignment"
+msgstr "Phân công Ticket"
+
+#. module: SCTP_helpdesk
+#: model:mail.message.subtype,name:SCTP_helpdesk.hlp_tck_created
+msgid "Ticket Created"
+msgstr "Đã tạo Ticket"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.res_config_settings_view_form
+msgid "Ticket Form Portal"
+msgstr "Biểu mẫu ticket trên cổng thông tin"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_ticket_stage_search
+msgid "Ticket Stage Search"
+msgstr "Tìm kiếm giai đoạn Ticket"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_ticket_tag_search
+msgid "Ticket Tag Search"
+msgstr "Tìm kiếm thẻ Ticket"
+
+#. module: SCTP_helpdesk
+#: model:ir.actions.act_window,name:SCTP_helpdesk.helpdesk_ticket_tag_action
+#: model:ir.ui.menu,name:SCTP_helpdesk.helpdesk_ticket_tag_menu
+msgid "Ticket Tags"
+msgstr "Thẻ Ticket"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_res_partner__helpdesk_ticket_active_count
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_res_users__helpdesk_ticket_active_count
+msgid "Ticket active count"
+msgstr "Số ticket đang hoạt động"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_res_partner__helpdesk_ticket_count
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_res_users__helpdesk_ticket_count
+msgid "Ticket count"
+msgstr "Số lượng ticket"
+
+#. module: SCTP_helpdesk
+#: model:mail.message.subtype,description:SCTP_helpdesk.hlp_tck_created
+msgid "Ticket created"
+msgstr "Đã tạo ticket"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__number
+msgid "Ticket number"
+msgstr "Số ticket"
+
+#. module: SCTP_helpdesk
+#: model:ir.actions.act_window,name:SCTP_helpdesk.helpdesk_ticket_action
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__ticket_ids
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_res_partner__helpdesk_ticket_count_string
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_res_users__helpdesk_ticket_count_string
+#: model:ir.ui.menu,name:SCTP_helpdesk.helpdesk_ticket_menu
+#: model:ir.ui.menu,name:SCTP_helpdesk.helpdesk_ticket_reporting_analysis
+msgid "Tickets"
+msgstr "Ticket"
+
+#. module: SCTP_helpdesk
+#. odoo-python
+#: code:addons/SCTP_helpdesk/controllers/myaccount.py:0
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__name
+#, python-format
+msgid "Title"
+msgstr "Tiêu đề"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_create_ticket
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_ticket_list
+msgid "Tiêu đề"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.helpdesk_ticket_kanban_view
+msgid "To Do"
+msgstr "Cần phân công"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.helpdesk_ticket_view_search
+msgid "Today Activities"
+msgstr "Hoạt động hôm nay"
+
+#. module: SCTP_helpdesk
+#. odoo-javascript
+#: code:addons/SCTP_helpdesk/static/src/js/new_ticket.esm.js:0
+#, python-format
+msgid ""
+"Total size (%sB) exceeds the maximum allowed (%sB). Please remove some files"
+" or compress them."
+msgstr ""
+"Tổng dung lượng (%sB) vượt mức cho phép (%sB). Vui lòng xoá bớt tệp hoặc nén"
+" lại."
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,help:SCTP_helpdesk.field_helpdesk_ticket__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Loại hoạt động ngoại lệ trên bản ghi."
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_my_home
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_my_tickets
+msgid "Tạo Ticket"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_create_ticket
+msgid "Tạo mới Ticket Hỗ Trợ"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_create_ticket
+msgid "Tệp đính kèm"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.helpdesk_ticket_view_search
+msgid "Unassigned"
+msgstr "Chưa phân công"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_team_tree
+msgid "Unassigned tickets"
+msgstr "Ticket phân công"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__unattended
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_stage__unattended
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.helpdesk_ticket_kanban_view
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.helpdesk_ticket_view_search
+msgid "Unattended"
+msgstr "Chưa xử lý"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_team_tree
+msgid "Unattended tickets"
+msgstr "Ticket chưa xử lý"
+
+#. module: SCTP_helpdesk
+#: model:ir.model,name:SCTP_helpdesk.model_res_users
+#: model:res.groups,name:SCTP_helpdesk.group_helpdesk_user
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.helpdesk_ticket_view_search
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.view_helpdesk_ticket_team_search
+msgid "User"
+msgstr "Nhân viên tiếp nhận"
+
+#. module: SCTP_helpdesk
+#: model:res.groups,name:SCTP_helpdesk.group_helpdesk_user_own
+msgid "User: Personal tickets"
+msgstr "Chỉ quản lý ticket được phân công"
+
+#. module: SCTP_helpdesk
+#: model:res.groups,name:SCTP_helpdesk.group_helpdesk_user_team
+msgid "User: Team tickets"
+msgstr "Quản lý ticket team"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__user_ids
+msgid "Users"
+msgstr "Nhân viên tiếp nhận"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.portal_create_ticket
+msgid "VD: POS không in hóa đơn, lỗi Odoo: KeyError 'kanban-box'"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields.selection,name:SCTP_helpdesk.selection__helpdesk_ticket__priority__3
+msgid "Very High"
+msgstr "Rất cao"
+
+#. module: SCTP_helpdesk
+#: model:helpdesk.ticket.channel,name:SCTP_helpdesk.helpdesk_ticket_channel_web
+msgid "Web"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket__website_message_ids
+#: model:ir.model.fields,field_description:SCTP_helpdesk.field_helpdesk_ticket_team__website_message_ids
+msgid "Website Messages"
+msgstr "Tin nhắn trên website"
+
+#. module: SCTP_helpdesk
+#: model:ir.model.fields,help:SCTP_helpdesk.field_helpdesk_ticket__website_message_ids
+#: model:ir.model.fields,help:SCTP_helpdesk.field_helpdesk_ticket_team__website_message_ids
+msgid "Website communication history"
+msgstr "Lịch sử trao đổi trên website"
+
+#. module: SCTP_helpdesk
+#: model:mail.template,subject:SCTP_helpdesk.assignment_email_template
+msgid ""
+"{{object.company_id.name}} Ticket Assignment (Ref {{object.number or 'n/a' "
+"}})"
+msgstr ""
+"{{object.company_id.name}} Phân công Ticket (Tham chiếu {{object.number or "
+"'n/a'}})"
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.custom_auth_signup
+msgid "Đăng ký"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.custom_auth_signup
+msgid "Đổi mật khẩu"
+msgstr ""
+
+#. module: SCTP_helpdesk
+#: model_terms:ir.ui.view,arch_db:SCTP_helpdesk.custom_footer
+msgid "— Trung tâm Hỗ trợ"
+msgstr ""

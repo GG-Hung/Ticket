@@ -1,0 +1,11 @@
+<odoo>
+  <template id="custom_auth_signup" inherit_id="auth_signup.login" name="Custom Sign up - Reset Password">
+    <xpath expr="//div[hasclass('justify-content-between')]" position="replace">
+        <div class="justify-content-between mt-2 d-flex small">
+            <a t-if="signup_enabled" t-attf-href="/web/signup?{{ keep_query() }}">Đăng ký</a>
+            <a t-if="reset_password_enabled" t-attf-href="/web/reset_password?{{ keep_query() }}">Đổi mật khẩu</a>
+        </div>
+    </xpath>
+</template>
+
+</odoo>

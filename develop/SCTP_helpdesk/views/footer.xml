@@ -1,0 +1,19 @@
+<odoo>
+  <template id="custom_footer" inherit_id="website.layout" name="Custom Footer" priority="100">
+    <xpath expr="//footer" position="replace">
+      <footer class="ticket-footer full-bleed">
+        <div class="tf-inner">
+          <!-- Title + Description -->
+          <div class="tf-head">
+            <span class="badge">Support</span>
+            <h3 class="title">
+              <t t-esc="website and (website.name or website.name) or 'Your Company'"/> — Trung tâm Hỗ trợ
+            </h3>
+            <p class="desc">Gửi ticket nhanh, mô tả rõ ràng để đội ngũ xử lý hiệu quả hơn.</p>
+          </div>
+          <hr/>
+        </div>
+      </footer>
+    </xpath>
+  </template>
+</odoo>

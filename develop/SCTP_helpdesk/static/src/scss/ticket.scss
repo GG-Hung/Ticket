@@ -1,0 +1,562 @@
+:root{
+    --tk-primary:#4f46e5;       /* indigo-600 */
+    --tk-primary-2:#06b6d4;     /* cyan-500   */
+    --tk-text:#111827;          /* gray-900   */
+    --tk-sub:#6b7280;           /* gray-500   */
+    --tk-border:#e5e7eb;        /* gray-200   */
+    --tk-bg:#ffffff;
+    --tk-soft:#f8fafc;
+    --tk-radius:16px;
+}
+/* Dark mode (nếu máy người dùng bật) */
+@media (prefers-color-scheme: dark){
+    :root{
+    --tk-text:#e5e7eb;
+    --tk-sub:#9ca3af;
+    --tk-border:#374151;
+    --tk-bg:#0b1220;
+    --tk-soft:#0f172a;
+    }
+}
+
+/* ===== Full-bleed (tràn viền) section ===== */
+.ticket-new .full-bleed{
+    position:relative;
+    left:50%;
+    right:50%;
+    margin-left:-50vw;
+    margin-right:-50vw;
+    width:100vw;
+}
+
+/* ===== Hero ===== */
+.ticket-new .ticket-hero{
+    background:linear-gradient(135deg, var(--tk-primary), var(--tk-primary-2));
+    color:#fff;
+    padding:40px 20px;
+}
+.ticket-new .hero-inner{
+    max-width:1080px; margin:0 auto; display:flex; align-items:flex-start; gap:16px;
+}
+.ticket-new .hero-badge{
+    background:rgba(255,255,255,.18);
+    border:1px solid rgba(255,255,255,.25);
+    color:#fff; padding:6px 12px; border-radius:999px; font-weight:700; letter-spacing:.3px;
+    backdrop-filter: blur(4px);
+}
+.ticket-new .hero-title{ margin:8px 0 4px 0; font-size:28px; font-weight:800; line-height:1.2; }
+.ticket-new .hero-sub{ margin:0; opacity:.9; }
+
+/* ===== Card ===== */
+.ticket-new .ticket-card{
+    background:var(--tk-bg); border-radius:var(--tk-radius);
+    box-shadow:0 10px 30px rgba(0,0,0,.06);
+    padding:28px; max-width:960px; margin:24px auto;
+    border:1px solid var(--tk-border);
+}
+
+/* ===== Form ===== */
+.ticket-new .form-group{ margin-bottom:16px; }
+.ticket-new label.control-label{
+    font-weight:700; color:var(--tk-text); margin-top:8px; display:block;
+}
+.ticket-new .required-dot::after{
+    content:" *"; color:#ef4444; font-weight:800;
+}
+.ticket-new .form-control, .ticket-new select.form-control{
+    background:var(--tk-bg);
+    border:1px solid var(--tk-border); border-radius:10px; box-shadow:none; height:auto; padding:10px 12px;
+    transition:border .15s ease, box-shadow .15s ease, background .15s ease, transform .04s ease;
+}
+.ticket-new .form-control:focus, .ticket-new select.form-control:focus{
+    border-color:var(--tk-primary); box-shadow:0 0 0 4px rgba(79,70,229,.15);
+}
+.ticket-new textarea.form-control{ min-height:150px; resize:vertical; }
+.ticket-new .hint{ font-size:12px; color:var(--tk-sub); margin-top:6px; }
+.ticket-new .inline-meta{ display:flex; gap:10px; align-items:center; margin-top:6px; }
+.ticket-new .meta-chip{
+    font-size:12px; color:var(--tk-sub); background:var(--tk-soft); border:1px dashed var(--tk-border);
+    padding:4px 8px; border-radius:999px;
+}
+
+/* File upload */
+.ticket-new .btn-file{
+    border-radius:10px; border:1px dashed var(--tk-border); background:var(--tk-soft);
+    display:block; padding:12px; cursor:pointer;
+}
+.ticket-new .file-list{ margin-top:8px; font-size:12px; color:var(--tk-text); }
+.ticket-new .danger{ color:#dc2626; }
+
+/* Submit */
+.ticket-new .btn-primary.btn-lg{
+    padding:10px 18px; border-radius:12px; font-weight:800; letter-spacing:.2px;
+    transform:translateZ(0);
+}
+.ticket-new .btn-primary.btn-lg:active{ transform:scale(.995); }
+
+/* Layout tweaks để form horizontal nhìn gọn trên desktop */
+@media (min-width: 768px){
+    .ticket-new .col-label{ padding-top:10px; }
+}
+
+/* Responsive mobile */
+@media (max-width: 767.98px){
+    .ticket-new .hero-title{ font-size:22px; }
+    .ticket-new .ticket-card{ padding:20px; margin:16px auto; }
+    .ticket-new .col-md-3, .ticket-new .col-sm-4,
+    .ticket-new .col-md-7, .ticket-new .col-sm-8{
+    width:100%; float:none;
+    }
+    .ticket-new .col-md-offset-3, .ticket-new .col-sm-offset-4{ margin-left:0; }
+}
+/* ===== Theme tokens ===== */
+.ticket-theme{ --tk-primary:#4f46e5; --tk-primary-2:#06b6d4; --tk-text:#111827; --tk-sub:#6b7280; --tk-border:#e5e7eb; --tk-bg:#ffffff; --tk-soft:#f8fafc; }
+@media (prefers-color-scheme: dark){
+.ticket-theme{ --tk-text:#e5e7eb; --tk-sub:#9ca3af; --tk-border:#374151; --tk-bg:#0b1220; --tk-soft:#0f172a; }
+}
+
+/* ===== Full-bleed hero ===== */
+.ticket-theme .full-bleed{ position:relative; left:50%; right:50%; margin-left:-50vw; margin-right:-50vw; width:100vw; }
+.ticket-theme .ticket-hero{ background:linear-gradient(135deg,var(--tk-primary),var(--tk-primary-2)); color:#fff; padding:32px 16px; }
+.ticket-theme .hero-inner{ max-width:1080px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; gap:16px; }
+.ticket-theme .hero-left h1{ margin:0; font-size:26px; font-weight:900; }
+.ticket-theme .hero-left p{ margin:6px 0 0 0; opacity:.95; }
+.card-header { background: aliceblue; }
+/* ===== Buttons ===== */
+.ticket-theme .btn-gradient{ background-image:linear-gradient(135deg,var(--tk-primary),var(--tk-primary-2)); border:none; border-radius:12px; padding:10px 16px; font-weight:800; letter-spacing:.2px; box-shadow:0 8px 20px rgba(79,70,229,.25); color:#fff; }
+.ticket-theme .btn-gradient:hover{ filter:brightness(1.02); }
+.ticket-theme .btn-gradient:active{ transform:scale(.995); }
+
+/* ===== Cards ===== */
+.ticket-theme .card-soft{ background:var(--tk-bg); border:1px solid var(--tk-border); border-radius:16px; box-shadow:0 10px 30px rgba(0,0,0,.06); }
+
+/* ===== Tables ===== */
+.ticket-theme table{ width:100%; border-collapse:separate; border-spacing:0; }
+.ticket-theme thead th{ background:var(--tk-soft); color:var(--tk-text); font-weight:800; border-bottom:1px solid var(--tk-border); padding:10px 12px; }
+.ticket-theme tbody td{ border-bottom:1px solid var(--tk-border); padding:10px 12px; vertical-align:middle; }
+.ticket-theme tbody tr:hover{ background:rgba(79,70,229,.03); }
+
+/* ===== Badges (stages) ===== */
+.ticket-theme .stage-badge{ border-radius:999px; padding:4px 10px; font-weight:800; font-size:12px; display:inline-block; border:1px solid transparent; }
+.ticket-theme .stage-badge.is-open{ background:rgba(16,185,129,.15); color:#10b981; border-color:rgba(16,185,129,.25); }
+.ticket-theme .stage-badge.is-unattended{ background:rgba(59,130,246,.15); color:#3b82f6; border-color:rgba(59,130,246,.25); }
+.ticket-theme .stage-badge.is-closed{ background:#e5e7eb; color:#111827; border-color:#d1d5db; }
+
+/* ===== Utilities ===== */
+.ticket-theme .mt-16{ margin-top:16px; }
+.ticket-theme .mb-16{ margin-bottom:16px; }
+.ticket-theme .d-flex{ display:flex; }
+.ticket-theme .justify-between{ justify-content:space-between; }
+.ticket-theme .align-center{ align-items:center; }
+.ticket-theme .text-right{ text-align:right; }
+.ticket-theme .text-muted{ color:var(--tk-sub); }
+
+/* ===== Portal Navbar Theme (match ticket indigo → cyan) – CSS only ===== */
+.o_portal_navbar{
+  --tk-primary:#4f46e5;      /* indigo-600 */
+  --tk-primary-2:#06b6d4;    /* cyan-500   */
+  --tk-text:#111827;         /* gray-900   */
+  --tk-sub:#6b7280;          /* gray-500   */
+  --tk-border:#e5e7eb;       /* gray-200   */
+  --tk-bg:#ffffff;
+  --tk-soft:#f8fafc;
+  background: transparent;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark){
+  .o_portal_navbar{
+    --tk-text:#e5e7eb;
+    --tk-sub:#9ca3af;
+    --tk-border:#374151;
+    --tk-bg:#0b1220;
+    --tk-soft:#0f172a;
+  }
+}
+
+/* Breadcrumb */
+.o_portal_navbar .o_portal_submenu.breadcrumb{
+  background: transparent;
+  padding: 8px 0;
+  margin-bottom: 0;
+}
+.o_portal_navbar .breadcrumb-item a{
+  color: var(--tk-primary-2);
+  text-decoration: none;
+}
+.o_portal_navbar .breadcrumb-item a:hover{ opacity: .9; text-decoration: underline; }
+.o_portal_navbar .breadcrumb-item.active{ color: var(--tk-sub); }
+.o_portal_navbar .breadcrumb .fa{ color: var(--tk-primary-2); }
+
+/* Labels (Sắp xếp theo / Lọc theo / Nhóm theo) */
+.o_portal_navbar .navbar-text{
+  color: var(--tk-sub);
+}
+
+/* Buttons (sort/filter/group/search) */
+.o_portal_navbar .btn.btn-secondary{
+  background-image: linear-gradient(135deg, var(--tk-primary), var(--tk-primary-2));
+  border: none;
+  color: #fff;
+  font-weight: 800;
+  border-radius: 10px;
+  padding: 8px 12px;
+  box-shadow: 0 6px 16px rgba(79,70,229,.22);
+}
+.o_portal_navbar .btn.btn-secondary:hover{ filter: brightness(1.03); }
+.o_portal_navbar .btn.btn-secondary:active{ transform: scale(.995); }
+.o_portal_navbar .btn.btn-secondary:focus{
+  box-shadow: 0 0 0 4px rgba(79,70,229,.18);
+  outline: none;
+}
+
+/* Navbar toggler */
+.o_portal_navbar .navbar-toggler{
+  border: 1px solid var(--tk-border);
+  border-radius: 10px;
+  padding: 6px 10px;
+}
+.o_portal_navbar .navbar-toggler .fa{ color: var(--tk-primary); }
+
+/* Dropdown menu */
+.o_portal_navbar .dropdown-menu{
+  background: var(--tk-bg);
+  border: 1px solid var(--tk-border);
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.08);
+  overflow: hidden;
+}
+.o_portal_navbar .dropdown-item{
+  padding: 8px 12px;
+  color: var(--tk-text);
+}
+.o_portal_navbar .dropdown-item:hover{
+  background: var(--tk-soft);
+}
+.o_portal_navbar .dropdown-item.active,
+.o_portal_navbar .dropdown-item.active span{
+  color: #fff;
+  background: linear-gradient(135deg, var(--tk-primary), var(--tk-primary-2));
+}
+
+/* Search panel */
+.o_portal_navbar .o_portal_search_panel .input-group{
+  border: 1px solid var(--tk-border);
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--tk-bg);
+}
+.o_portal_navbar .o_portal_search_panel .form-control{
+  border: none;
+  background: transparent;
+  padding: 10px 12px;
+  color: var(--tk-text);
+}
+.o_portal_navbar .o_portal_search_panel .form-control::placeholder{
+  color: var(--tk-sub);
+  opacity: .95;
+}
+.o_portal_navbar .o_portal_search_panel .form-control:focus{
+  box-shadow: inset 0 0 0 1px var(--tk-primary);
+  outline: none;
+}
+.o_portal_navbar .o_portal_search_panel .btn.dropdown-toggle{
+  border: none;
+  border-right: 1px solid var(--tk-border) !important;
+  border-radius: 0;
+  background: var(--tk-soft);
+  color: var(--tk-text);
+  font-weight: 700;
+}
+.o_portal_navbar .o_portal_search_panel .btn.o_wait_lazy_js{
+  background-image: linear-gradient(135deg, var(--tk-primary), var(--tk-primary-2));
+  border: none;
+  color: #fff;
+  font-weight: 800;
+}
+
+/* Spacing & layout tweaks */
+.o_portal_navbar .nav .btn-group{ gap: 0; }
+.o_portal_navbar .gap-3{ gap: 0.75rem !important; }
+.o_portal_navbar .ms-auto{ margin-left: auto !important; }
+
+/* Responsive */
+@media (max-width: 991.98px){
+  .o_portal_navbar .o_portal_search_panel{ width: 100%; margin-top: .5rem; }
+  .o_portal_navbar .o_portal_search_panel .input-group{ width: 100%; }
+  .o_portal_navbar .nav{ width: 100%; }
+}
+
+/* Optional: subtle separator under navbar */
+.o_portal_navbar{
+  border-bottom: 1px solid var(--tk-border);
+}
+
+/* ===== Ticket Portal: Breadcrumb + Pager (indigo → cyan) ===== */
+.o_portal{
+  --tk-primary:#4f46e5;      /* indigo-600 */
+  --tk-primary-2:#06b6d4;    /* cyan-500   */
+  --tk-text:#111827;         /* gray-900   */
+  --tk-sub:#6b7280;          /* gray-500   */
+  --tk-border:#e5e7eb;       /* gray-200   */
+  --tk-bg:#ffffff;
+  --tk-soft:#f8fafc;
+}
+
+/* Dark mode tự động */
+@media (prefers-color-scheme: dark){
+  .o_portal{
+    --tk-text:#e5e7eb;
+    --tk-sub:#9ca3af;
+    --tk-border:#374151;
+    --tk-bg:#0b1220;
+    --tk-soft:#0f172a;
+  }
+}
+
+/* Hàng tiêu đề: khoảng cách + gạch dưới nhẹ */
+.o_portal .d-flex.justify-content-between.align-items-center{
+  padding: 8px 0;
+  border-bottom: 1px solid var(--tk-border);
+}
+
+/* Breadcrumb */
+.o_portal .o_portal_submenu.breadcrumb{
+  background: transparent;
+  padding: 0;
+  margin: 0;
+}
+.o_portal .breadcrumb-item a{
+  color: var(--tk-primary-2);
+  text-decoration: none;
+}
+.o_portal .breadcrumb-item a:hover{
+  opacity: .9;
+  text-decoration: underline;
+}
+.o_portal .breadcrumb-item.active,
+.o_portal .breadcrumb-item.active span{
+  color: var(--tk-sub);
+}
+.o_portal .breadcrumb .fa{
+  color: var(--tk-primary-2);
+}
+
+/* Pager (nút trước/sau) */
+.o_portal .record_pager .btn{
+  border: none;
+  padding: 8px 10px;
+  font-weight: 800;
+  color: #fff;
+  background-image: linear-gradient(135deg, var(--tk-primary), var(--tk-primary-2));
+  box-shadow: 0 6px 16px rgba(79,70,229,.22);
+}
+.o_portal .record_pager .btn:hover{
+  filter: brightness(1.03);
+}
+.o_portal .record_pager .btn:active{
+  transform: scale(.995);
+}
+.o_portal .record_pager .btn:focus{
+  box-shadow: 0 0 0 4px rgba(79,70,229,.18);
+  outline: none;
+}
+
+/* Trạng thái disabled */
+.o_portal .record_pager .btn.disabled,
+.o_portal .record_pager .btn:disabled{
+  background: var(--tk-soft) !important;
+  color: var(--tk-sub) !important;
+  border: 1px solid var(--tk-border) !important;
+  box-shadow: none !important;
+  cursor: not-allowed;
+}
+
+/* Icon trong pager thừa hưởng màu nút */
+.o_portal .record_pager .oi{
+  color: inherit;
+}
+
+/* Responsive: pager xuống dòng đẹp trên màn nhỏ */
+@media (max-width: 575.98px){
+  .o_portal .record_pager{
+    margin-top: .5rem;
+  }
+}
+/* ===== Portal Chatter (Discussion) – indigo → cyan theme (CSS only) ===== */
+#discussion{
+  --tk-primary:#4f46e5;      /* indigo-600 */
+  --tk-primary-2:#06b6d4;    /* cyan-500   */
+  --tk-text:#111827;         /* gray-900   */
+  --tk-sub:#6b7280;          /* gray-500   */
+  --tk-border:#e5e7eb;       /* gray-200   */
+  --tk-bg:#ffffff;
+  --tk-soft:#f8fafc;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark){
+  #discussion{
+    --tk-text:#e5e7eb;
+    --tk-sub:#9ca3af;
+    --tk-border:#374151;
+    --tk-bg:#0b1220;
+    --tk-soft:#0f172a;
+  }
+}
+
+/* Wrapper */
+#discussion.o_portal_chatter{
+  background: transparent;
+}
+
+/* Header (counter / empty state) */
+#discussion .o_portal_chatter_header{
+  border-bottom: 1px solid var(--tk-border);
+  padding: 8px 0 10px 0;
+  margin-bottom: 8px;
+  color: var(--tk-sub);
+  font-weight: 600;
+}
+#discussion .o_portal_chatter_header .o_message_counter{
+  color: var(--tk-sub);
+}
+
+/* Composer card */
+#discussion .o_portal_chatter_composer{
+  background: var(--tk-bg);
+  border: 1px solid var(--tk-border);
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.06);
+  padding: 12px;
+}
+
+/* Error banner */
+#discussion .o_portal_chatter_composer_error{
+  border-radius: 12px;
+  font-weight: 700;
+}
+
+/* Avatar */
+#discussion .o_portal_chatter_avatar{
+  width: 40px; height: 40px; object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0,0,0,.12);
+}
+
+/* Textarea */
+#discussion .o_portal_chatter_composer textarea.form-control{
+  background: var(--tk-bg);
+  border: 1px solid var(--tk-border);
+  border-radius: 12px;
+  padding: 10px 12px;
+  transition: border .15s ease, box-shadow .15s ease, background .15s ease;
+  color: var(--tk-text);
+}
+#discussion .o_portal_chatter_composer textarea.form-control::placeholder{
+  color: var(--tk-sub);
+  opacity: .95;
+}
+#discussion .o_portal_chatter_composer textarea.form-control:focus{
+  border-color: var(--tk-primary);
+  box-shadow: 0 0 0 4px rgba(79,70,229,.15);
+  outline: none;
+}
+
+/* Attachment button (paperclip) */
+#discussion .o_portal_chatter_attachment_btn{
+  background: var(--tk-soft);
+  color: var(--tk-text);
+  border: 1px dashed var(--tk-border) !important;
+  border-radius: 10px;
+  width: 40px; height: 40px;
+  display: inline-flex; align-items: center; justify-content: center;
+  transition: filter .15s ease;
+}
+#discussion .o_portal_chatter_attachment_btn:hover{
+  filter: brightness(1.02);
+}
+
+/* Send button */
+#discussion .o_portal_chatter_composer_btn.btn-primary{
+  background-image: linear-gradient(135deg, var(--tk-primary), var(--tk-primary-2));
+  border: none;
+  color: #fff;
+  font-weight: 800;
+  border-radius: 12px;
+  padding: 8px 14px;
+  box-shadow: 0 8px 20px rgba(79,70,229,.22);
+}
+#discussion .o_portal_chatter_composer_btn.btn-primary:hover{ filter: brightness(1.03); }
+#discussion .o_portal_chatter_composer_btn.btn-primary:active{ transform: scale(.995); }
+#discussion .o_portal_chatter_composer_btn.btn-primary:focus{
+  box-shadow: 0 0 0 4px rgba(79,70,229,.18);
+  outline: none;
+}
+
+/* Attachments preview area (below composer) */
+#discussion .o_portal_chatter_attachments{
+  border-top: 1px dashed var(--tk-border);
+  margin-top: 8px;
+  padding-top: 8px;
+}
+
+/* Messages area */
+#discussion .o_portal_chatter_messages{
+  margin-top: 16px;
+}
+
+/* Generic bubble styling for messages (robust selectors) */
+#discussion .o_portal_chatter_messages > *{
+  /* each message wrapper (fallback when classes vary) */
+  background: var(--tk-soft);
+  border: 1px solid var(--tk-border);
+  border-radius: 12px;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+  color: var(--tk-text);
+}
+
+/* Loading spinner */
+#discussion .o_portal_chatter_messages_loading .spinner-border{
+  color: var(--tk-primary) !important;
+}
+
+/* Pager under messages */
+#discussion .o_portal_chatter_footer{
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--tk-border);
+}
+#discussion .o_portal_chatter_pager .btn{
+  border: none;
+  border-radius: 10px;
+  padding: 6px 10px;
+  font-weight: 800;
+  color: #fff;
+  background-image: linear-gradient(135deg, var(--tk-primary), var(--tk-primary-2));
+  box-shadow: 0 6px 16px rgba(79,70,229,.22);
+}
+#discussion .o_portal_chatter_pager .btn:hover{ filter: brightness(1.03); }
+#discussion .o_portal_chatter_pager .btn:active{ transform: scale(.995); }
+#discussion .o_portal_chatter_pager .btn:focus{
+  box-shadow: 0 0 0 4px rgba(79,70,229,.18);
+  outline: none;
+}
+#discussion .o_portal_chatter_pager .btn.disabled,
+#discussion .o_portal_chatter_pager .btn:disabled{
+  background: var(--tk-soft) !important;
+  color: var(--tk-sub) !important;
+  border: 1px solid var(--tk-border) !important;
+  box-shadow: none !important;
+  cursor: not-allowed;
+}
+
+/* Fine spacing */
+#discussion .mb8{ margin-bottom: 8px !important; }
+
+/* Responsive */
+@media (max-width: 575.98px){
+  #discussion .o_portal_chatter_composer{ padding: 10px; }
+  #discussion .o_portal_chatter_composer textarea.form-control{ min-height: 96px; }
+  #discussion .o_portal_chatter_composer .o_portal_chatter_composer_body{ flex-wrap: wrap; }
+}

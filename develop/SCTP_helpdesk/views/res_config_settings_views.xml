@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="res_config_settings_view_form" model="ir.ui.view">
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="base.res_config_settings_view_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//form" position="inside">
+                <app
+                    data-string="Helpdesk"
+                    string="Helpdesk"
+                    name="SCTP_helpdesk"
+                    groups="SCTP_helpdesk.group_helpdesk_manager"
+                >
+                    <block title="Ticket Form Portal">
+                        <setting
+                            string="Teams"
+                            id="show_teams_form"
+                            help="Controls if the teams are visible on the portal and if they are required."
+                        >
+                            <div class="mt16">
+                                <div class="content-group">
+                                    <div>
+                                        <field
+                                            name="SCTP_helpdesk_portal_select_team"
+                                            string="Display"
+                                        />
+                                        <label for="SCTP_helpdesk_portal_select_team" />
+                                    </div>
+                                    <div
+                                        invisible="not SCTP_helpdesk_portal_select_team"
+                                    >
+                                        <field
+                                            name="SCTP_helpdesk_portal_team_id_required"
+                                            string="Required"
+                                        />
+                                        <label
+                                            for="SCTP_helpdesk_portal_team_id_required"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </setting>
+                        <setting
+                            string="Config Team"
+                            id="default_ticket"
+                            help="Default Team When Create Ticket"
+                        >
+                            <div class="mt16">
+                                <div class="content-group">
+                                    <div>
+                                        <label for="SCTP_helpdeskdefault_team_id" />
+                                        <field
+                                            name="SCTP_helpdeskdefault_team_id"
+                                            string="Default Team"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </setting>
+                        <setting
+                            string="Categories"
+                            id="show_categories_form"
+                            help="Controls if the categories are required on the portal"
+                        >
+                            <div class="mt16">
+                                <div class="content-group">
+                                    <div>
+                                        <field
+                                            name="SCTP_helpdesk_portal_category_id_required"
+                                            string="Required"
+                                        />
+                                        <label
+                                            for="SCTP_helpdesk_portal_category_id_required"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </setting>
+                    </block>
+                </app>
+            </xpath>
+        </field>
+    </record>
+    <record id="action_SCTP_helpdesk_config_settings" model="ir.actions.act_window">
+        <field name="name">Settings</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">res.config.settings</field>
+        <field name="view_mode">form</field>
+        <field name="target">inline</field>
+        <field name="context">{'module' : 'SCTP_helpdesk', 'bin_size': False}</field>
+    </record>
+</odoo>

@@ -1,0 +1,41 @@
+{
+    "name": "SCTP Helpdesk",
+    "summary": """
+        SCTP Helpdesk""",
+    "version": "17.0.1.8.0",
+    "license": "AGPL-3",
+    "category": "",
+    "author": "SCTP",
+    "website": "",
+    "depends": ["mail", "portal", "website"],
+    "data": [
+        "data/helpdesk_data.xml",
+        "security/helpdesk_security.xml",
+        "security/ir.model.access.csv",
+        "views/res_partner_views.xml",
+        "views/res_config_settings_views.xml",
+        "views/helpdesk_ticket_templates.xml",
+        "views/helpdesk_ticket_menu.xml",
+        "views/helpdesk_ticket_team_views.xml",
+        "views/helpdesk_ticket_stage_views.xml",
+        "views/helpdesk_ticket_category_views.xml",
+        "views/helpdesk_ticket_channel_views.xml",
+        "views/helpdesk_ticket_tag_views.xml",
+        "views/helpdesk_ticket_views.xml",
+        "views/helpdesk_dashboard_views.xml",
+        "views/footer.xml",
+        "views/header.xml",
+        "views/login_signup.xml",
+    ],
+    "assets": {
+        'web.assets_frontend': [
+            'SCTP_helpdesk/static/src/scss/ticket.scss',
+            'SCTP_helpdesk/static/src/scss/footer.scss',
+            'SCTP_helpdesk/static/src/scss/footer.scss',
+            'SCTP_helpdesk/static/src/scss/login_signup.scss',
+            'SCTP_helpdesk/static/src/js/new_ticket.esm.js',
+        ]
+    },
+    "application": True,
+    "installable": True,
+}
